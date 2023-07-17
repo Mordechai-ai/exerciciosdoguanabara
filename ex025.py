@@ -1,0 +1,5 @@
+nome=str(input('Qual o seu nome completo? '))
+nome=nome.upper()
+nome=nome.split()
+print(f'Seu nome contém Silva? ',end='' )
+print(nome.__contains__('SILVA'))

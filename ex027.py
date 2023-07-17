@@ -1,0 +1,7 @@
+nome=str(input('Qual o seu nome completo?: '))
+nome=nome.split()
+first=(nome[0])
+poslast=(len(nome)-1)
+last=(nome[poslast])
+print(f'Primeiro Nome: {first}')
+print(f'Último Nome: {last}')

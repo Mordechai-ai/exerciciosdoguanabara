@@ -1,0 +1,6 @@
+n = input('Seu Nome:  ')
+#print('O que foi digitado é alfanumérico? ',n.isalnum())
+#print('O que foi digitado está tudo em maiúsculo?', n.isupper())
+print('-'*30)
+print(f'Olá {n:^15}')
+print('-'*30)

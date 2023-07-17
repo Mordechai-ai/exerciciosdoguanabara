@@ -1,0 +1,5 @@
+nome=str(input('Qual o nome da cidade? '))
+nome=nome.upper()
+lista=(nome.split())
+bool=(lista[0]=='SANTO')
+print(bool)
